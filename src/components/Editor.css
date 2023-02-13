@@ -1,0 +1,131 @@
+.section_title{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.editor{
+    margin-top: 20px;
+}
+.download_btn{
+display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.download_btn_div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.download_btn{
+    width: 10vw;
+    align-items: center;
+    text-align: center;
+}
+
+
+.btn{
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border: none;
+}
+
+.active_btn{
+    color: blue;
+    border: none;
+    border-bottom: 2px solid blue;
+    background-color: white;
+    
+}
+.each_field{
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.input_title{
+ 
+ display: flex;
+ align-items: flex-start;
+ margin-left: 60px;
+ font-weight: 600;
+ margin-bottom: 8px;
+}
+
+.section_form{
+    align-items: center;
+    text-align: center;
+    width: 60vw;
+    
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    
+
+}
+.section_form input{
+    letter-spacing: 1px;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 14px;
+    margin-left: 60px;
+    width: 24vw;
+    border-radius: 5px;
+    /* border: none; */
+    border: 1px solid  rgb(134, 134, 134);
+    outline: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 62vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 50px;
+}
+
+.save_btn{
+    margin-bottom: 28px;
+
+    margin-top:10px ;
+}
+.save_btn button{
+    font-size: 15px;
+    background-color: rgb(107, 107, 241);
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.download_div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

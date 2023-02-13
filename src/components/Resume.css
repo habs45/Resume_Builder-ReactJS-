@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.resume_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    
+    
+}
+.BasicInfo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.BasicInfo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basicinfo_fields{
+    width: 14vw;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.resume_container>h1{
+margin-top: 0;
+}
+.resume_fields{
+    border: 2px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.field_title h5{
+    background-color: grey;
+    
+    width: 94vw;
+}
+
+.field_title{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.basicinfo_fields{
+   
+    min-width: 23.5vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Education{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.field_title h3{
+    background-color: grey;
+    width: 94vw;
+    letter-spacing: 1px;
+}
+
+.each_education{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight:600 ;
+}
+.education{
+    width: 22.5vw;
+}
+.Skills{
+    display: flex;
+    flex-direction:column ;
+}
+.skills_field{
+    width: 94vw;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.Projects{
+    display: flex;
+    flex-direction: column;
+
+}
+.each_project{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 94vw;
+}
+.project_title{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+   /* letter-spacing: 1px; */
+}
+
+.project_descrp{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 14.7px;
+    padding-left: 20px;
+}
+.WorkExperience{
+    display: flex;
+    flex-direction: column;
+    width:94vw;
+}
+.each_experience{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.company_name , .company_descr{
+    display: flex;
+    width: 94vw;
+    align-items: flex-start;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 40px;
+}
+.company_descr{
+font-size: 14.7px;
+}
+.Achievements{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+/* .each_achievements{
+    display: flex;
+    align-items: flex-start;
+    width: 94vw;
+    padding-left: 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 14.7px;
+} */
+.each_achievements{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 94vw; */
+    padding-left: 20px;
+    text-align: left;
+    justify-content: flex-start;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
